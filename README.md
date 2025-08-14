@@ -53,6 +53,6 @@ Covers **Strings**, **Lists & Dictionaries**, and **Loops & Conditions** — all
 > Day 1 focused on **direct scripting**; Day 2 refactors them into **clean, testable functions**.
 
 ## How to Run
-```bash
-python day2.py
-
+```bash```
+```python day2.py```
+## Author- ALLEN ALEXANDER -aspiring python / AI-ML Developer
