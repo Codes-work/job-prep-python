@@ -57,3 +57,50 @@ Covers **Strings**, **Lists & Dictionaries**, and **Loops & Conditions** — all
 python day2_prep.py
 ```
 ## Author- ALLEN ALEXANDER -aspiring python / AI-ML Developer
+
+# Day 3 – Python Job Prep
+
+This module covers **Functions & Functional Programming**, **File Handling**, and **Error Handling** in Python.  
+Designed to strengthen practical coding skills for interviews and job readiness.
+
+---
+
+## **Section A – Functions & Functional Programming**
+1. **Default Parameters**
+   - `greet(name="Guest")`
+2. **Keyword Arguments**
+   - `order_pizza(size, crust, topping)`
+3. **Lambda Functions**
+   - Simple lambda: `triple = lambda x: x * 3`
+   - Conditional lambda: `is_odd = lambda x: x % 2 != 0`
+4. **Map & Filter**
+   - Transform and filter lists in a chain.
+5. **Reduce**
+   - Aggregate list values into a single result.
+6. **Combined Pipeline**
+   - Map → Filter → Reduce in one expression.
+
+---
+
+## **Section B – File Handling**
+1. **Write to a file** – `write_to_file(filename, text)`
+2. **Read from a file** – `read_file(filename)`
+3. **Append to a file** – `append_to_file(filename, text)`
+4. **Count words in a file** – `count_words_in_file(filename)`
+
+---
+
+## **Section C – Error Handling**
+1. **Division with zero handling** – `safe_division(a, b)`
+2. **File not found handling** – `safe_file_read(filename)`
+3. **Custom exception example**
+   - `NegativeAgeError`
+   - `check_age(age)`
+
+---
+
+## **How to Run**
+```bash
+python day3_prep.py
+```
+## Author- ALLEN ALEXANDER -aspiring python / AI-ML Developer
