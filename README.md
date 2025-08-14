@@ -54,5 +54,5 @@ Covers **Strings**, **Lists & Dictionaries**, and **Loops & Conditions** — all
 
 ## How to Run
 ```bash```
-```python day2.py```
+python day2.py
 ## Author- ALLEN ALEXANDER -aspiring python / AI-ML Developer
