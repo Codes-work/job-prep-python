@@ -260,6 +260,6 @@ class Library:
 
 
 cart = Library()
-cart['blaah'] = 8
-print(cart['blaah'])
-print(cart['yoloo'])
+cart['blaah'] = 8        # Calls __setitem__('blaah', 8)
+print(cart['blaah'])     # Calls __getitem__('blaah') → returns 8
+print(cart['yoloo'])     # Calls __getitem__('yoloo') → returns "item not found"
