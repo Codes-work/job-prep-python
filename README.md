@@ -98,9 +98,53 @@ Designed to strengthen practical coding skills for interviews and job readiness.
    - `check_age(age)`
 
 ---
-
-## **How to Run**
+## How to Run
 ```bash
-python day3_prep.py
+python day2_prep.py
 ```
 ## Author- ALLEN ALEXANDER -aspiring python / AI-ML Developer
+
+# Day 4 - Advanced OOP in Python
+
+## Overview
+This day covers **advanced Object-Oriented Programming concepts** in Python, split into 3 sections:
+
+- **Section A**: Basic OOP (Class Attributes, Methods, Access Modifiers)
+- **Section B**: Inheritance, Multiple Inheritance, and Polymorphism
+- **Section C**: Operator Overloading (Special Methods)
+
+---
+
+## Section A: Basic OOP
+1. **Book Class** - Basic attributes and instance methods.
+2. **Laptop Class** - Class vs instance attributes.
+3. **MathOps Class** - Instance methods, class methods, static methods.
+4. **BankAccount Class** - Public, protected, private attributes.
+
+---
+
+## Section B: Inheritance & Polymorphism
+1. **Vehicle & Car** - Single inheritance with method overriding.
+2. **FlyingBoat** - Multiple inheritance example.
+3. **Person & Student** - Method overriding.
+4. **Dog & Cat** - Polymorphism via a function.
+5. **BankAccount & SavingsAccount** - Real-world banking example.
+
+---
+
+## Section C: Operator Overloading
+1. **Movie Class** - `__str__` method.
+2. **Team Class** - `__len__` method.
+3. **Book Class** - `__eq__` method for equality.
+4. **Library Class** - `__getitem__` and `__setitem__` methods.
+
+---
+
+## How to Run
+```bash
+python day4_prep.py
+```
+
+Ensure you have Python 3.x installed.
+## Author- ALLEN ALEXANDER -aspiring python / AI-ML Developer
+
