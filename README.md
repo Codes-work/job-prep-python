@@ -205,4 +205,8 @@ Ensure you have Python 3.x installed.
 9. **Age Calculator**  
    Use `datetime` to calculate age from a birth year.
 ---
+## How to Run
+```bash
+python day5_prep.py
+```
 ## Author- ALLEN ALEXANDER -aspiring python / AI-ML Developer
