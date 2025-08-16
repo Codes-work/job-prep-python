@@ -148,3 +148,61 @@ python day4_prep.py
 Ensure you have Python 3.x installed.
 ## Author- ALLEN ALEXANDER -aspiring python / AI-ML Developer
 
+# Day 5 - Python Job Prep
+
+## Topics Covered
+- File Handling (Basics to Intermediate)
+- Working with JSON & CSV
+- Python Modules & Packages
+
+---
+
+## 📂 Section A: File Handling
+
+### Key Concepts
+- Writing, appending, and reading files.
+- Reading entire files vs. line by line.
+- Handling missing files with exceptions.
+
+### Challenges
+1. **Write & Read Students**  
+   Create a file `students.txt` with names, then read and print each name.
+2. **Word Counter**  
+   Count the number of words in `notes.txt`.
+3. **Copy File**  
+   Copy content of `notes.txt` into `copy_notes.txt`.
+4. **Search Keyword**  
+   Search for a keyword inside `notes.txt` and print the line numbers.
+5. **Exception Handling**  
+   Handle missing file errors gracefully.
+
+---
+
+## 📂 Section B: Working with JSON & CSV
+
+### Key Concepts
+- JSON: `dump`, `dumps`, `load`, `loads`
+- CSV: Reading and writing rows
+
+### Challenges
+6. **Save Multiple Students to JSON**  
+   Store multiple student dictionaries in `students.json`.
+7. **Read CSV & Count Rows**  
+   Read `students.csv` and count the total rows.
+
+---
+
+## 📂 Section C: Python Modules & Packages
+
+### Key Concepts
+- Importing built-in modules (`os`, `sys`, `datetime`).
+- Creating and importing custom modules.
+- Using `pip` to install external packages.
+
+### Challenges
+8. **Custom Calculator Module**  
+   Build a `calculator.py` with `add` and `multiply` functions, then import and use it.
+9. **Age Calculator**  
+   Use `datetime` to calculate age from a birth year.
+---
+## Author- ALLEN ALEXANDER -aspiring python / AI-ML Developer
