@@ -159,6 +159,12 @@ print("Add:", calculator.add(2, 3))
 print("Multiply:", calculator.multiply(4, 5))
 
 # C9: Use datetime to calculate age
-birth_year = 2000
-current_year = datetime.datetime.now().year
-print("Age:", current_year - birth_year)
+birthdate = datetime.datetime(2000, 5, 15)  # Birthdate (example: 2000-05-15)
+current_date = datetime.datetime.now()      # Current date
+age = current_date.year - birthdate.year    # Calculate the difference in years
+if (current_date.month, current_date.day) < (birthdate.month, birthdate.day):  
+    age -= 1                                # Check if the birthday has occurred yet this year
+
+print(f"Age: {age}")
+
+
